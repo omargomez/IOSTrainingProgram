@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ej 42 - Bloques' target in the 'Ej 42 - Bloques' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

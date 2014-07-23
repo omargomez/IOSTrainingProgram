@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1992F51530C8370032FE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1992F41530C8370032FE59 /* UIKit.framework */; };
+		9D1992F71530C8370032FE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1992F61530C8370032FE59 /* Foundation.framework */; };
+		9D1992F91530C8370032FE59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1992F81530C8370032FE59 /* CoreGraphics.framework */; };
+		9D1992FF1530C8370032FE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D1992FD1530C8370032FE59 /* InfoPlist.strings */; };
+		9D1993011530C8370032FE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1993001530C8370032FE59 /* main.m */; };
+		9D1993051530C8370032FE59 /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1993041530C8370032FE59 /* FCAppDelegate.m */; };
+		9D1993081530C8370032FE59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1993061530C8370032FE59 /* MainStoryboard.storyboard */; };
+		9D19930B1530C8370032FE59 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19930A1530C8370032FE59 /* FCViewController.m */; };
+		9D1993131530C8370032FE59 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1993121530C8370032FE59 /* SenTestingKit.framework */; };
+		9D1993141530C8370032FE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1992F41530C8370032FE59 /* UIKit.framework */; };
+		9D1993151530C8370032FE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1992F61530C8370032FE59 /* Foundation.framework */; };
+		9D19931D1530C8370032FE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D19931B1530C8370032FE59 /* InfoPlist.strings */; };
+		9D1993201530C8370032FE59 /* GalletaFortunaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19931F1530C8370032FE59 /* GalletaFortunaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D1993161530C8370032FE59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1992E71530C8370032FE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1992EF1530C8370032FE59;
+			remoteInfo = GalletaFortuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D1992F01530C8370032FE59 /* GalletaFortuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalletaFortuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1992F41530C8370032FE59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D1992F61530C8370032FE59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D1992F81530C8370032FE59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D1992FC1530C8370032FE59 /* GalletaFortuna-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GalletaFortuna-Info.plist"; sourceTree = "<group>"; };
+		9D1992FE1530C8370032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D1993001530C8370032FE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D1993021530C8370032FE59 /* GalletaFortuna-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GalletaFortuna-Prefix.pch"; sourceTree = "<group>"; };
+		9D1993031530C8370032FE59 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		9D1993041530C8370032FE59 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		9D1993071530C8370032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9D1993091530C8370032FE59 /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
+		9D19930A1530C8370032FE59 /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		9D1993111530C8370032FE59 /* GalletaFortunaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalletaFortunaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1993121530C8370032FE59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D19931A1530C8370032FE59 /* GalletaFortunaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GalletaFortunaTests-Info.plist"; sourceTree = "<group>"; };
+		9D19931C1530C8370032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D19931E1530C8370032FE59 /* GalletaFortunaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalletaFortunaTests.h; sourceTree = "<group>"; };
+		9D19931F1530C8370032FE59 /* GalletaFortunaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalletaFortunaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D1992ED1530C8370032FE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1992F51530C8370032FE59 /* UIKit.framework in Frameworks */,
+				9D1992F71530C8370032FE59 /* Foundation.framework in Frameworks */,
+				9D1992F91530C8370032FE59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19930D1530C8370032FE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1993131530C8370032FE59 /* SenTestingKit.framework in Frameworks */,
+				9D1993141530C8370032FE59 /* UIKit.framework in Frameworks */,
+				9D1993151530C8370032FE59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D1992E51530C8370032FE59 = {
+			isa = PBXGroup;
+			children = (
+				9D1992FA1530C8370032FE59 /* GalletaFortuna */,
+				9D1993181530C8370032FE59 /* GalletaFortunaTests */,
+				9D1992F31530C8370032FE59 /* Frameworks */,
+				9D1992F11530C8370032FE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D1992F11530C8370032FE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D1992F01530C8370032FE59 /* GalletaFortuna.app */,
+				9D1993111530C8370032FE59 /* GalletaFortunaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D1992F31530C8370032FE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D1992F41530C8370032FE59 /* UIKit.framework */,
+				9D1992F61530C8370032FE59 /* Foundation.framework */,
+				9D1992F81530C8370032FE59 /* CoreGraphics.framework */,
+				9D1993121530C8370032FE59 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D1992FA1530C8370032FE59 /* GalletaFortuna */ = {
+			isa = PBXGroup;
+			children = (
+				9D1993031530C8370032FE59 /* FCAppDelegate.h */,
+				9D1993041530C8370032FE59 /* FCAppDelegate.m */,
+				9D1993061530C8370032FE59 /* MainStoryboard.storyboard */,
+				9D1993091530C8370032FE59 /* FCViewController.h */,
+				9D19930A1530C8370032FE59 /* FCViewController.m */,
+				9D1992FB1530C8370032FE59 /* Supporting Files */,
+			);
+			path = GalletaFortuna;
+			sourceTree = "<group>";
+		};
+		9D1992FB1530C8370032FE59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1992FC1530C8370032FE59 /* GalletaFortuna-Info.plist */,
+				9D1992FD1530C8370032FE59 /* InfoPlist.strings */,
+				9D1993001530C8370032FE59 /* main.m */,
+				9D1993021530C8370032FE59 /* GalletaFortuna-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D1993181530C8370032FE59 /* GalletaFortunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D19931E1530C8370032FE59 /* GalletaFortunaTests.h */,
+				9D19931F1530C8370032FE59 /* GalletaFortunaTests.m */,
+				9D1993191530C8370032FE59 /* Supporting Files */,
+			);
+			path = GalletaFortunaTests;
+			sourceTree = "<group>";
+		};
+		9D1993191530C8370032FE59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D19931A1530C8370032FE59 /* GalletaFortunaTests-Info.plist */,
+				9D19931B1530C8370032FE59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D1992EF1530C8370032FE59 /* GalletaFortuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1993231530C8370032FE59 /* Build configuration list for PBXNativeTarget "GalletaFortuna" */;
+			buildPhases = (
+				9D1992EC1530C8370032FE59 /* Sources */,
+				9D1992ED1530C8370032FE59 /* Frameworks */,
+				9D1992EE1530C8370032FE59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GalletaFortuna;
+			productName = GalletaFortuna;
+			productReference = 9D1992F01530C8370032FE59 /* GalletaFortuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D1993101530C8370032FE59 /* GalletaFortunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1993261530C8370032FE59 /* Build configuration list for PBXNativeTarget "GalletaFortunaTests" */;
+			buildPhases = (
+				9D19930C1530C8370032FE59 /* Sources */,
+				9D19930D1530C8370032FE59 /* Frameworks */,
+				9D19930E1530C8370032FE59 /* Resources */,
+				9D19930F1530C8370032FE59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D1993171530C8370032FE59 /* PBXTargetDependency */,
+			);
+			name = GalletaFortunaTests;
+			productName = GalletaFortunaTests;
+			productReference = 9D1993111530C8370032FE59 /* GalletaFortunaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D1992E71530C8370032FE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D1992EA1530C8370032FE59 /* Build configuration list for PBXProject "GalletaFortuna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D1992E51530C8370032FE59;
+			productRefGroup = 9D1992F11530C8370032FE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D1992EF1530C8370032FE59 /* GalletaFortuna */,
+				9D1993101530C8370032FE59 /* GalletaFortunaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D1992EE1530C8370032FE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1992FF1530C8370032FE59 /* InfoPlist.strings in Resources */,
+				9D1993081530C8370032FE59 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19930E1530C8370032FE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19931D1530C8370032FE59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D19930F1530C8370032FE59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D1992EC1530C8370032FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1993011530C8370032FE59 /* main.m in Sources */,
+				9D1993051530C8370032FE59 /* FCAppDelegate.m in Sources */,
+				9D19930B1530C8370032FE59 /* FCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19930C1530C8370032FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1993201530C8370032FE59 /* GalletaFortunaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D1993171530C8370032FE59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1992EF1530C8370032FE59 /* GalletaFortuna */;
+			targetProxy = 9D1993161530C8370032FE59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D1992FD1530C8370032FE59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D1992FE1530C8370032FE59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D1993061530C8370032FE59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D1993071530C8370032FE59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9D19931B1530C8370032FE59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D19931C1530C8370032FE59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D1993211530C8370032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D1993221530C8370032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D1993241530C8370032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalletaFortuna/GalletaFortuna-Prefix.pch";
+				INFOPLIST_FILE = "GalletaFortuna/GalletaFortuna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D1993251530C8370032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalletaFortuna/GalletaFortuna-Prefix.pch";
+				INFOPLIST_FILE = "GalletaFortuna/GalletaFortuna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D1993271530C8370032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GalletaFortuna.app/GalletaFortuna";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalletaFortuna/GalletaFortuna-Prefix.pch";
+				INFOPLIST_FILE = "GalletaFortunaTests/GalletaFortunaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9D1993281530C8370032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GalletaFortuna.app/GalletaFortuna";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalletaFortuna/GalletaFortuna-Prefix.pch";
+				INFOPLIST_FILE = "GalletaFortunaTests/GalletaFortunaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D1992EA1530C8370032FE59 /* Build configuration list for PBXProject "GalletaFortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1993211530C8370032FE59 /* Debug */,
+				9D1993221530C8370032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1993231530C8370032FE59 /* Build configuration list for PBXNativeTarget "GalletaFortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1993241530C8370032FE59 /* Debug */,
+				9D1993251530C8370032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D1993261530C8370032FE59 /* Build configuration list for PBXNativeTarget "GalletaFortunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1993271530C8370032FE59 /* Debug */,
+				9D1993281530C8370032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D1992E71530C8370032FE59 /* Project object */;
+}

@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D19933D153105400032FE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D19933C153105400032FE59 /* UIKit.framework */; };
+		9D19933F153105400032FE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D19933E153105400032FE59 /* Foundation.framework */; };
+		9D199341153105400032FE59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D199340153105400032FE59 /* CoreGraphics.framework */; };
+		9D199347153105400032FE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D199345153105400032FE59 /* InfoPlist.strings */; };
+		9D199349153105400032FE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D199348153105400032FE59 /* main.m */; };
+		9D19934D153105400032FE59 /* DVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19934C153105400032FE59 /* DVAppDelegate.m */; };
+		9D199350153105400032FE59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D19934E153105400032FE59 /* MainStoryboard.storyboard */; };
+		9D199353153105400032FE59 /* DVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D199352153105400032FE59 /* DVViewController.m */; };
+		9D19935B153105400032FE59 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D19935A153105400032FE59 /* SenTestingKit.framework */; };
+		9D19935C153105400032FE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D19933C153105400032FE59 /* UIKit.framework */; };
+		9D19935D153105400032FE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D19933E153105400032FE59 /* Foundation.framework */; };
+		9D199365153105400032FE59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D199363153105400032FE59 /* InfoPlist.strings */; };
+		9D199368153105400032FE59 /* DemoVistasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D199367153105400032FE59 /* DemoVistasTests.m */; };
+		9D199373153105980032FE59 /* DemoVista.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D199372153105980032FE59 /* DemoVista.m */; };
+		9D19937A153137820032FE59 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D199379153137820032FE59 /* apple.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D19935E153105400032FE59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D19932F153105400032FE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D199337153105400032FE59;
+			remoteInfo = DemoVistas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D199338153105400032FE59 /* DemoVistas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoVistas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19933C153105400032FE59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D19933E153105400032FE59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D199340153105400032FE59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D199344153105400032FE59 /* DemoVistas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoVistas-Info.plist"; sourceTree = "<group>"; };
+		9D199346153105400032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D199348153105400032FE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D19934A153105400032FE59 /* DemoVistas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoVistas-Prefix.pch"; sourceTree = "<group>"; };
+		9D19934B153105400032FE59 /* DVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVAppDelegate.h; sourceTree = "<group>"; };
+		9D19934C153105400032FE59 /* DVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVAppDelegate.m; sourceTree = "<group>"; };
+		9D19934F153105400032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9D199351153105400032FE59 /* DVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVViewController.h; sourceTree = "<group>"; };
+		9D199352153105400032FE59 /* DVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVViewController.m; sourceTree = "<group>"; };
+		9D199359153105400032FE59 /* DemoVistasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoVistasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19935A153105400032FE59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D199362153105400032FE59 /* DemoVistasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoVistasTests-Info.plist"; sourceTree = "<group>"; };
+		9D199364153105400032FE59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D199366153105400032FE59 /* DemoVistasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVistasTests.h; sourceTree = "<group>"; };
+		9D199367153105400032FE59 /* DemoVistasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVistasTests.m; sourceTree = "<group>"; };
+		9D199371153105980032FE59 /* DemoVista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVista.h; sourceTree = "<group>"; };
+		9D199372153105980032FE59 /* DemoVista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVista.m; sourceTree = "<group>"; };
+		9D199379153137820032FE59 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D199335153105400032FE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19933D153105400032FE59 /* UIKit.framework in Frameworks */,
+				9D19933F153105400032FE59 /* Foundation.framework in Frameworks */,
+				9D199341153105400032FE59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D199355153105400032FE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19935B153105400032FE59 /* SenTestingKit.framework in Frameworks */,
+				9D19935C153105400032FE59 /* UIKit.framework in Frameworks */,
+				9D19935D153105400032FE59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D19932D153105400032FE59 = {
+			isa = PBXGroup;
+			children = (
+				9D199342153105400032FE59 /* DemoVistas */,
+				9D199360153105400032FE59 /* DemoVistasTests */,
+				9D19933B153105400032FE59 /* Frameworks */,
+				9D199339153105400032FE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D199339153105400032FE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D199338153105400032FE59 /* DemoVistas.app */,
+				9D199359153105400032FE59 /* DemoVistasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D19933B153105400032FE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D19933C153105400032FE59 /* UIKit.framework */,
+				9D19933E153105400032FE59 /* Foundation.framework */,
+				9D199340153105400032FE59 /* CoreGraphics.framework */,
+				9D19935A153105400032FE59 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D199342153105400032FE59 /* DemoVistas */ = {
+			isa = PBXGroup;
+			children = (
+				9D19934B153105400032FE59 /* DVAppDelegate.h */,
+				9D19934C153105400032FE59 /* DVAppDelegate.m */,
+				9D19934E153105400032FE59 /* MainStoryboard.storyboard */,
+				9D199351153105400032FE59 /* DVViewController.h */,
+				9D199352153105400032FE59 /* DVViewController.m */,
+				9D199343153105400032FE59 /* Supporting Files */,
+				9D199371153105980032FE59 /* DemoVista.h */,
+				9D199372153105980032FE59 /* DemoVista.m */,
+			);
+			path = DemoVistas;
+			sourceTree = "<group>";
+		};
+		9D199343153105400032FE59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D199378153137740032FE59 /* img */,
+				9D199344153105400032FE59 /* DemoVistas-Info.plist */,
+				9D199345153105400032FE59 /* InfoPlist.strings */,
+				9D199348153105400032FE59 /* main.m */,
+				9D19934A153105400032FE59 /* DemoVistas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D199360153105400032FE59 /* DemoVistasTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D199366153105400032FE59 /* DemoVistasTests.h */,
+				9D199367153105400032FE59 /* DemoVistasTests.m */,
+				9D199361153105400032FE59 /* Supporting Files */,
+			);
+			path = DemoVistasTests;
+			sourceTree = "<group>";
+		};
+		9D199361153105400032FE59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D199362153105400032FE59 /* DemoVistasTests-Info.plist */,
+				9D199363153105400032FE59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D199378153137740032FE59 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9D199379153137820032FE59 /* apple.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D199337153105400032FE59 /* DemoVistas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19936B153105400032FE59 /* Build configuration list for PBXNativeTarget "DemoVistas" */;
+			buildPhases = (
+				9D199334153105400032FE59 /* Sources */,
+				9D199335153105400032FE59 /* Frameworks */,
+				9D199336153105400032FE59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoVistas;
+			productName = DemoVistas;
+			productReference = 9D199338153105400032FE59 /* DemoVistas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D199358153105400032FE59 /* DemoVistasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19936E153105400032FE59 /* Build configuration list for PBXNativeTarget "DemoVistasTests" */;
+			buildPhases = (
+				9D199354153105400032FE59 /* Sources */,
+				9D199355153105400032FE59 /* Frameworks */,
+				9D199356153105400032FE59 /* Resources */,
+				9D199357153105400032FE59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D19935F153105400032FE59 /* PBXTargetDependency */,
+			);
+			name = DemoVistasTests;
+			productName = DemoVistasTests;
+			productReference = 9D199359153105400032FE59 /* DemoVistasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D19932F153105400032FE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D199332153105400032FE59 /* Build configuration list for PBXProject "DemoVistas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D19932D153105400032FE59;
+			productRefGroup = 9D199339153105400032FE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D199337153105400032FE59 /* DemoVistas */,
+				9D199358153105400032FE59 /* DemoVistasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D199336153105400032FE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D199347153105400032FE59 /* InfoPlist.strings in Resources */,
+				9D199350153105400032FE59 /* MainStoryboard.storyboard in Resources */,
+				9D19937A153137820032FE59 /* apple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D199356153105400032FE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D199365153105400032FE59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D199357153105400032FE59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D199334153105400032FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D199349153105400032FE59 /* main.m in Sources */,
+				9D19934D153105400032FE59 /* DVAppDelegate.m in Sources */,
+				9D199353153105400032FE59 /* DVViewController.m in Sources */,
+				9D199373153105980032FE59 /* DemoVista.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D199354153105400032FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D199368153105400032FE59 /* DemoVistasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D19935F153105400032FE59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D199337153105400032FE59 /* DemoVistas */;
+			targetProxy = 9D19935E153105400032FE59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D199345153105400032FE59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D199346153105400032FE59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D19934E153105400032FE59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D19934F153105400032FE59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9D199363153105400032FE59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D199364153105400032FE59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D199369153105400032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D19936A153105400032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D19936C153105400032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoVistas/DemoVistas-Prefix.pch";
+				INFOPLIST_FILE = "DemoVistas/DemoVistas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D19936D153105400032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoVistas/DemoVistas-Prefix.pch";
+				INFOPLIST_FILE = "DemoVistas/DemoVistas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D19936F153105400032FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoVistas.app/DemoVistas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoVistas/DemoVistas-Prefix.pch";
+				INFOPLIST_FILE = "DemoVistasTests/DemoVistasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9D199370153105400032FE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoVistas.app/DemoVistas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoVistas/DemoVistas-Prefix.pch";
+				INFOPLIST_FILE = "DemoVistasTests/DemoVistasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D199332153105400032FE59 /* Build configuration list for PBXProject "DemoVistas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D199369153105400032FE59 /* Debug */,
+				9D19936A153105400032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D19936B153105400032FE59 /* Build configuration list for PBXNativeTarget "DemoVistas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19936C153105400032FE59 /* Debug */,
+				9D19936D153105400032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D19936E153105400032FE59 /* Build configuration list for PBXNativeTarget "DemoVistasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19936F153105400032FE59 /* Debug */,
+				9D199370153105400032FE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D19932F153105400032FE59 /* Project object */;
+}

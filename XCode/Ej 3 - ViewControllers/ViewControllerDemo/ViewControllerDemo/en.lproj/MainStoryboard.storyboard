@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="kH6-OT-MDh">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="Z2h-ZX-0H9">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BX-xf-lmy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Sopa" id="UGs-cF-VHk" customClass="SopaController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C0U-n2-dD8">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XYn-xT-o3B">
+                                <rect key="frame" x="104" y="224" width="112" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Plato Fuerte">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="accionPlatoFuerte:" destination="UGs-cF-VHk" eventType="touchUpInside" id="CB5-yW-Whp"/>
+                                    <segue destination="eGG-hm-UJ3" kind="push" id="9GN-5a-3zw"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="R5H-ik-rRA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="UGs-cF-VHk" id="NN0-PO-0R1"/>
+                                    <outlet property="delegate" destination="UGs-cF-VHk" id="4MT-P3-5a4"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sopa" id="eie-Y9-ytx"/>
+                    <connections>
+                        <outlet property="sopaPicker" destination="R5H-ik-rRA" id="0hp-qV-g96"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="144" y="582"/>
+        </scene>
+        <scene sceneID="ASA-Yp-fWj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ki-te-ACL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="eGG-hm-UJ3" customClass="PlatoFuerteController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lyO-un-Mi8">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PJv-Fd-5Vr">
+                                <rect key="frame" x="114" y="224" width="92" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Jugo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="jugoAction:" destination="eGG-hm-UJ3" eventType="touchUpInside" id="K0q-wR-675"/>
+                                    <segue destination="oXB-df-oQx" kind="push" id="RzH-FL-rTF"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="xZB-4O-g6p">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eGG-hm-UJ3" id="GJp-LE-P47"/>
+                                    <outlet property="delegate" destination="eGG-hm-UJ3" id="18M-X6-DyR"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Plato Fuerte" id="R8Z-LG-lIO"/>
+                    <connections>
+                        <outlet property="platoFuertePicker" destination="xZB-4O-g6p" id="yRd-Lh-g6T"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="580" y="582"/>
+        </scene>
+        <scene sceneID="bSA-BT-L0G">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AgX-oh-qn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="oXB-df-oQx" customClass="JugoController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17h-EM-had">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="abs-de-vdz">
+                                <rect key="frame" x="124" y="224" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Postre">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postreAction:" destination="oXB-df-oQx" eventType="touchUpInside" id="dmt-56-yj1"/>
+                                    <segue destination="Aoj-FE-WHg" kind="push" id="VFs-T9-cha"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="bOg-qr-FNg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="oXB-df-oQx" id="jMc-5F-rQD"/>
+                                    <outlet property="delegate" destination="oXB-df-oQx" id="LLf-tg-L18"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jugo" id="85N-qY-7WU"/>
+                    <connections>
+                        <outlet property="jugoPicker" destination="bOg-qr-FNg" id="i1l-TJ-mrV"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1020" y="582"/>
+        </scene>
+        <scene sceneID="rq6-vE-XCD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fa9-2a-dnq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Aoj-FE-WHg" customClass="PostreController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="73J-fQ-S4T">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" id="kk9-EV-bNZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Aoj-FE-WHg" id="aFm-Db-Y5X"/>
+                                    <outlet property="delegate" destination="Aoj-FE-WHg" id="Ig4-g6-n3i"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v6e-kC-OsY">
+                                <rect key="frame" x="112" y="224" width="96" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Confirmar">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmarAction:" destination="Aoj-FE-WHg" eventType="touchUpInside" id="ZAG-xb-RSL"/>
+                                    <segue destination="wc8-1h-Vuz" kind="push" id="Scq-oB-Pu5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Postre" id="Ait-iZ-aQS"/>
+                    <connections>
+                        <outlet property="postrePicker" destination="kk9-EV-bNZ" id="WVS-p2-ndP"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1427" y="582"/>
+        </scene>
+        <scene sceneID="qmN-9i-Wvu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="edt-O6-Z7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="wc8-1h-Vuz" customClass="ConfirmacionController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uyp-8U-eAc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label
+tales" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="bK3-UM-Pbr">
+                                <rect key="frame" x="20" y="33" width="280" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Confirmar" id="ZzH-FU-5xy"/>
+                    <connections>
+                        <outlet property="mensajeConfLabel" destination="bK3-UM-Pbr" id="q6z-a4-gpR"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1882" y="582"/>
+        </scene>
+        <scene sceneID="foh-Oy-Ubz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSG-6v-y1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="kH6-OT-MDh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yN8-X5-1t3">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FOV-JY-RpP">
+                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="UGs-cF-VHk" kind="relationship" relationship="rootViewController" id="XUv-Wa-jTp"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-369" y="582"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ConfirmacionController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConfirmacionController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mensajeConfLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="JugoController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/JugoController.h"/>
+            <relationships>
+                <relationship kind="action" name="postreAction:"/>
+                <relationship kind="outlet" name="jugoPicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="PlatoFuerteController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlatoFuerteController.h"/>
+            <relationships>
+                <relationship kind="action" name="jugoAction:"/>
+                <relationship kind="outlet" name="platoFuertePicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="PostreController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PostreController.h"/>
+            <relationships>
+                <relationship kind="action" name="confirmarAction:"/>
+                <relationship kind="outlet" name="postrePicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="SopaController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SopaController.h"/>
+            <relationships>
+                <relationship kind="action" name="accionPlatoFuerte:"/>
+                <relationship kind="outlet" name="sopaPicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

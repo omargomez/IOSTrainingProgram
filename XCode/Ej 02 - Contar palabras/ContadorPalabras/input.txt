@@ -1,0 +1,6 @@
+Objective-C es un lenguaje de programación orientado a objetos creado como un
+superconjunto de C pero que implementase un modelo de objetos parecido al de Smalltalk.
+Originalmente fue creado por Brad Cox y la corporación StepStone en 1980. 
+En 1988 fue adoptado como lenguaje de programación de NEXTSTEP y en 1992 
+fue liberado bajo licencia GPL para el compilador GCC. Actualmente se usa 
+como lenguaje principal de programación en Mac OS X y GNUstep.

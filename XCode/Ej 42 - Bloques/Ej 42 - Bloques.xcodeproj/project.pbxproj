@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D78ECB91538A98300EB7F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D78ECB81538A98300EB7F90 /* Foundation.framework */; };
+		9D78ECBC1538A98300EB7F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D78ECBB1538A98300EB7F90 /* main.m */; };
+		9D78ECC01538A98300EB7F90 /* Ej_42___Bloques.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D78ECBF1538A98300EB7F90 /* Ej_42___Bloques.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D78ECB21538A98300EB7F90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9D78ECC01538A98300EB7F90 /* Ej_42___Bloques.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D78ECB41538A98300EB7F90 /* Ej 42 - Bloques */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ej 42 - Bloques"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D78ECB81538A98300EB7F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D78ECBB1538A98300EB7F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D78ECBE1538A98300EB7F90 /* Ej 42 - Bloques-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ej 42 - Bloques-Prefix.pch"; sourceTree = "<group>"; };
+		9D78ECBF1538A98300EB7F90 /* Ej_42___Bloques.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Ej_42___Bloques.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D78ECB11538A98300EB7F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D78ECB91538A98300EB7F90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D78ECA91538A98300EB7F90 = {
+			isa = PBXGroup;
+			children = (
+				9D78ECBA1538A98300EB7F90 /* Ej 42 - Bloques */,
+				9D78ECB71538A98300EB7F90 /* Frameworks */,
+				9D78ECB51538A98300EB7F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D78ECB51538A98300EB7F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D78ECB41538A98300EB7F90 /* Ej 42 - Bloques */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D78ECB71538A98300EB7F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D78ECB81538A98300EB7F90 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D78ECBA1538A98300EB7F90 /* Ej 42 - Bloques */ = {
+			isa = PBXGroup;
+			children = (
+				9D78ECBB1538A98300EB7F90 /* main.m */,
+				9D78ECBF1538A98300EB7F90 /* Ej_42___Bloques.1 */,
+				9D78ECBD1538A98300EB7F90 /* Supporting Files */,
+			);
+			path = "Ej 42 - Bloques";
+			sourceTree = "<group>";
+		};
+		9D78ECBD1538A98300EB7F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D78ECBE1538A98300EB7F90 /* Ej 42 - Bloques-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D78ECB31538A98300EB7F90 /* Ej 42 - Bloques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D78ECC31538A98300EB7F90 /* Build configuration list for PBXNativeTarget "Ej 42 - Bloques" */;
+			buildPhases = (
+				9D78ECB01538A98300EB7F90 /* Sources */,
+				9D78ECB11538A98300EB7F90 /* Frameworks */,
+				9D78ECB21538A98300EB7F90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ej 42 - Bloques";
+			productName = "Ej 42 - Bloques";
+			productReference = 9D78ECB41538A98300EB7F90 /* Ej 42 - Bloques */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D78ECAB1538A98300EB7F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D78ECAE1538A98300EB7F90 /* Build configuration list for PBXProject "Ej 42 - Bloques" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D78ECA91538A98300EB7F90;
+			productRefGroup = 9D78ECB51538A98300EB7F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D78ECB31538A98300EB7F90 /* Ej 42 - Bloques */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D78ECB01538A98300EB7F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D78ECBC1538A98300EB7F90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D78ECC11538A98300EB7F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9D78ECC21538A98300EB7F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D78ECC41538A98300EB7F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ej 42 - Bloques/Ej 42 - Bloques-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D78ECC51538A98300EB7F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ej 42 - Bloques/Ej 42 - Bloques-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D78ECAE1538A98300EB7F90 /* Build configuration list for PBXProject "Ej 42 - Bloques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D78ECC11538A98300EB7F90 /* Debug */,
+				9D78ECC21538A98300EB7F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D78ECC31538A98300EB7F90 /* Build configuration list for PBXNativeTarget "Ej 42 - Bloques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D78ECC41538A98300EB7F90 /* Debug */,
+				9D78ECC51538A98300EB7F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D78ECAB1538A98300EB7F90 /* Project object */;
+}

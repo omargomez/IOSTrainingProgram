@@ -1,0 +1,58 @@
+{
+    "sopas" : [
+        {
+            "titulo" : "Sopa de verduras",
+            "img" : "vegetales.jpg"
+        },
+
+        {
+            "titulo" : "Sopa de guineo",
+            "img" : "guineo.jpg"
+        },
+
+        {
+            "titulo" : "Frijoles",
+            "img" : "frijoles.jpg"
+        }
+
+    ],
+    "platos" : [
+        {
+            "titulo" : "Carne de res"
+        },
+
+        {
+            "titulo" : "Pollo"
+        },
+
+        {
+            "titulo" : "Chicharron"
+        }
+    ],
+    "jugos" : [
+        {
+            "titulo" : "Guarapo"
+        },
+
+        {
+            "titulo" : "Tomate de árbol"
+        },
+
+        {
+            "titulo" : "Piña"
+        }
+    ],
+    "postres" : [
+        {
+            "titulo" : "Cocada"
+        },
+
+        {
+            "titulo" : "Gelatina"
+        },
+
+        {
+            "titulo" : "Banano calado"
+        }
+    ]
+}
